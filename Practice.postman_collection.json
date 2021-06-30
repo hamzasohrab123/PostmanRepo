@@ -1,0 +1,212 @@
+{
+	"info": {
+		"_postman_id": "14413c4f-ad68-41a8-8f55-ef55ec0c69dc",
+		"name": "Practice",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://jsonplaceholder.typicode.com/users",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://jsonplaceholder.typicode.com/users",
+					"protocol": "https",
+					"host": [
+						"jsonplaceholder",
+						"typicode",
+						"com"
+					],
+					"path": [
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://izaan-test.auth.us-east-1.amazoncognito.com/oauth2/token",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "1qbkthvp7lbc7aavuhhmfg8f2crekor9h2h7abu2oru1nlpj71fe",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "1u5io4va9sr45n79fceg2damjf",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "scope",
+							"value": "izaan_test/post_info",
+							"type": "text"
+						},
+						{
+							"key": "grant_type",
+							"value": "client_credentials",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://izaan-test.auth.us-east-1.amazoncognito.com/oauth2/token",
+					"protocol": "https",
+					"host": [
+						"izaan-test",
+						"auth",
+						"us-east-1",
+						"amazoncognito",
+						"com"
+					],
+					"path": [
+						"oauth2",
+						"token"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://5x9m5ed0tj.execute-api.us-east-1.amazonaws.com/test/people",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJraWQiOiJtNlhhM3FkczlxY2o2ODZYOVBRb0JqTEJSQU5yMzBPZ21ZQzdvdThZc1N3PSIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiIxdTVpbzR2YTlzcjQ1bjc5ZmNlZzJkYW1qZiIsInRva2VuX3VzZSI6ImFjY2VzcyIsInNjb3BlIjoiaXphYW5fdGVzdFwvcG9zdF9pbmZvIiwiYXV0aF90aW1lIjoxNjI1MDU1NDc2LCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAudXMtZWFzdC0xLmFtYXpvbmF3cy5jb21cL3VzLWVhc3QtMV9ZN3k4cTVDMVoiLCJleHAiOjE2MjUwNTkwNzYsImlhdCI6MTYyNTA1NTQ3NiwidmVyc2lvbiI6MiwianRpIjoiNjQ0MGUxMTktODM4ZS00MTI5LTkwZjUtOTg1NzAyZmU1ZjA4IiwiY2xpZW50X2lkIjoiMXU1aW80dmE5c3I0NW43OWZjZWcyZGFtamYifQ.CJsqYIU4GgW-9LfFBk-9YBvl4hW00OS-K0UjGqj4_EWNE29FpZz4w0-prfFtwk8wwhRseQdy3nSrKCQo6fsNHLcl76pFEsie0fl19hkbgIQp-OFVnQaovPJeleZicRPu-_uNyeYAfSn1O5gXBZdtcrjweyjfpYbiAlduvsji0mk9y6ayO7lGBQFQYpTD3sX035p-jUEoz39aVoY_1g9hsAJYXcHpMKLqwXLDinxGT6ZXRS-kAKKvLwwVnfg-f-0rVtmTzn0Y-5EiKIF9A6sIUI8MOjYEi387XdtM45jQ9a9kLO0aXU9mXjH2kfJkPP8613_WRJ1efNJ7HcMuad-keA",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://5x9m5ed0tj.execute-api.us-east-1.amazonaws.com/test/people",
+					"protocol": "https",
+					"host": [
+						"5x9m5ed0tj",
+						"execute-api",
+						"us-east-1",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"test",
+						"people"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://5x9m5ed0tj.execute-api.us-east-1.amazonaws.com/test/submit",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJraWQiOiJtNlhhM3FkczlxY2o2ODZYOVBRb0JqTEJSQU5yMzBPZ21ZQzdvdThZc1N3PSIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiIxdTVpbzR2YTlzcjQ1bjc5ZmNlZzJkYW1qZiIsInRva2VuX3VzZSI6ImFjY2VzcyIsInNjb3BlIjoiaXphYW5fdGVzdFwvcG9zdF9pbmZvIiwiYXV0aF90aW1lIjoxNjI1MDU1NDc2LCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAudXMtZWFzdC0xLmFtYXpvbmF3cy5jb21cL3VzLWVhc3QtMV9ZN3k4cTVDMVoiLCJleHAiOjE2MjUwNTkwNzYsImlhdCI6MTYyNTA1NTQ3NiwidmVyc2lvbiI6MiwianRpIjoiNjQ0MGUxMTktODM4ZS00MTI5LTkwZjUtOTg1NzAyZmU1ZjA4IiwiY2xpZW50X2lkIjoiMXU1aW80dmE5c3I0NW43OWZjZWcyZGFtamYifQ.CJsqYIU4GgW-9LfFBk-9YBvl4hW00OS-K0UjGqj4_EWNE29FpZz4w0-prfFtwk8wwhRseQdy3nSrKCQo6fsNHLcl76pFEsie0fl19hkbgIQp-OFVnQaovPJeleZicRPu-_uNyeYAfSn1O5gXBZdtcrjweyjfpYbiAlduvsji0mk9y6ayO7lGBQFQYpTD3sX035p-jUEoz39aVoY_1g9hsAJYXcHpMKLqwXLDinxGT6ZXRS-kAKKvLwwVnfg-f-0rVtmTzn0Y-5EiKIF9A6sIUI8MOjYEi387XdtM45jQ9a9kLO0aXU9mXjH2kfJkPP8613_WRJ1efNJ7HcMuad-keA",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\" :\"John Doe\",\r\n    \"age\" : 60\r\n}"
+				},
+				"url": {
+					"raw": "https://5x9m5ed0tj.execute-api.us-east-1.amazonaws.com/test/submit",
+					"protocol": "https",
+					"host": [
+						"5x9m5ed0tj",
+						"execute-api",
+						"us-east-1",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"test",
+						"submit"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://api.github.com/user/repos",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{token}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\" : \"PostmanRepo\",\r\n    \"description\" : \"This repo is from Postamn\",\r\n    \"homepage\" : \"https://github.com\",\r\n    \"private\" : false,\r\n    \"has_issues\" : true,\r\n    \"has_projects\" : true,\r\n    \"has_wiki\" : true\r\n    \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://api.github.com/user/repos",
+					"protocol": "https",
+					"host": [
+						"api",
+						"github",
+						"com"
+					],
+					"path": [
+						"user",
+						"repos"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
