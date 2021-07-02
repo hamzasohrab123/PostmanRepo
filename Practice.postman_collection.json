@@ -238,6 +238,110 @@
 				}
 			},
 			"response": []
+		},
+		{
+			"name": "https://v57pmk39lf.execute-api.us-east-1.amazonaws.com/prod/user-auth",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "username",
+							"value": "Hamza",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "@Hamzasohrab72",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\": \"Hamza\", \r\n    \"password\": \"@Hamzasohrab72\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://v57pmk39lf.execute-api.us-east-1.amazonaws.com/prod/user-auth",
+					"protocol": "https",
+					"host": [
+						"v57pmk39lf",
+						"execute-api",
+						"us-east-1",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"prod",
+						"user-auth"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://q6qmnel1w2.execute-api.us-east-1.amazonaws.com/course-info/get-all",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{izaantoken}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://q6qmnel1w2.execute-api.us-east-1.amazonaws.com/course-info/get-all",
+					"protocol": "https",
+					"host": [
+						"q6qmnel1w2",
+						"execute-api",
+						"us-east-1",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"course-info",
+						"get-all"
+					]
+				}
+			},
+			"response": []
 		}
 	]
 }
