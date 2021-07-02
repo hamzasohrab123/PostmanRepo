@@ -185,7 +185,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"name\" : \"PostmanRepo\",\r\n    \"description\" : \"This repo is from Postamn\",\r\n    \"homepage\" : \"https://github.com\",\r\n    \"private\" : false,\r\n    \"has_issues\" : true,\r\n    \"has_projects\" : true,\r\n    \"has_wiki\" : true\r\n    \r\n}",
+					"raw": "{\r\n    \"name\" : \"PostmanRepo\",\r\n    \"description\" : \"This repo is from Postman\",\r\n    \"homepage\" : \"https://github.com\",\r\n    \"private\" : false,\r\n    \"has_issues\" : true,\r\n    \"has_projects\" : true,\r\n    \"has_wiki\" : true\r\n    \r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -203,6 +203,37 @@
 					"path": [
 						"user",
 						"repos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "api.openweathermap.org/data/2.5/weather?q=lahore&appid=04cccf0d33c863db428c31fb96533efc",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "api.openweathermap.org/data/2.5/weather?q=lahore&appid=04cccf0d33c863db428c31fb96533efc",
+					"host": [
+						"api",
+						"openweathermap",
+						"org"
+					],
+					"path": [
+						"data",
+						"2.5",
+						"weather"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "lahore"
+						},
+						{
+							"key": "appid",
+							"value": "04cccf0d33c863db428c31fb96533efc"
+						}
 					]
 				}
 			},
