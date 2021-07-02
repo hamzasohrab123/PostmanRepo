@@ -1,0 +1,50 @@
+1- Weather Information:
+    When we ask google to give us the weather update and google gives us specific weather 
+    like degrees, precipitation or what it feels like. So this data is coming from 
+    a third-party application through API so this way API helps ton transfer the data
+
+2- Account Login:
+    This is another example of API like when we go into a socialmedia site API checks whether this person
+    is already logged in or not so it checks and gives us the login page so the user can login again
+
+3- Pay with Account:
+    In this example we can see that when the user purchases something if he clicks on the Google Pay option
+    the API is gonna tell that how much amount is owed and other details so if everything goes according
+    to plan the API send the payment done option back to the user
+
+4- Application Bots:
+    Sometimes we see that there are bots which gives us information those are API too. We can say that
+    in netflix or other apps we get some certain news that is basically API because it is automated to give
+    certain information to user that this is what you should see or this is a suggestion for you
+
+5- Flight Booking:
+    In this we go to a agency to book a ticket they give us a certain airline ticket as we requested this
+    is all because of API. The agency has some access to the airlines because of API so this API lets the
+    agency to look through the flight and seat no. and gives us a vacant seat if available, just like this
+    we get a ticket
+
+6- Dictionary:
+    This platform is an example of API like from this we can see that if we make a request for a word we 
+    get the definition of the particular word and apart from that we get synonyms so this API gives us a
+    lot information about the word we searched and also gives us the sentence for that word for our example
+
+7- Movie Tickets:
+    When we go for a movie what we can do is book a ticket this is also done by API like if we search for
+    a theatre we can go for a site it can show that this is the closest to your location and then from that
+    we can book a vacant seat of our choice so this is how it works
+
+8- Online Gaming:
+    This is also a good example of API, when we open the game it lets us join with the server and from 
+    that we are able to play with our friends this is the work of API because we are joined as a client and
+    then we request to join to the server so the API helps us complete our request and lets us join the server
+
+9- Soundcloud:
+    This is also an example of API because in this site we are able to listen other people music this is
+    because of API it completes our request listening to our call that what music we want what type we
+    want and then it gives the artist and music which let's us listen to our desired song
+
+10- NASA:
+    Apparently the best news about the space and stuff we can get from NASA in this a user can call the API
+    and then the it's gonna get the data from the databse and gonna tell the user that these are the stats
+    or these are the earth images or this is the news about mars or what is the asteroids stats and from this
+    we can get the data needed with the help of API  
