@@ -1,0 +1,509 @@
+{
+  "soapui-project": {
+    "settings": "",
+    "interface": [
+      {
+        "settings": "",
+        "definitionCache": "",
+        "endpoints": {
+          "endpoint": "https://izaan-test.auth.us-east-1.amazoncognito.com"
+        },
+        "resource": {
+          "settings": "",
+          "parameters": "",
+          "method": {
+            "settings": "",
+            "parameters": {
+              "parameter": [
+                {
+                  "name": "scope",
+                  "value": "",
+                  "style": "QUERY",
+                  "default": ""
+                },
+                {
+                  "name": "grant_type",
+                  "value": "",
+                  "style": "QUERY",
+                  "default": ""
+                }
+              ]
+            },
+            "representation": [
+              {
+                "mediaType": "",
+                "status": 405,
+                "params": "",
+                "element": "data"
+              },
+              {
+                "mediaType": "application/json",
+                "params": ""
+              },
+              {
+                "mediaType": "application/json;charset=UTF-8",
+                "status": 400,
+                "params": "",
+                "element": "tok:Fault"
+              },
+              {
+                "mediaType": "application/x-www-form-urlencoded",
+                "params": ""
+              },
+              {
+                "mediaType": "application/json;charset=UTF-8",
+                "status": 200,
+                "params": "",
+                "element": "tok:Response"
+              }
+            ],
+            "request": {
+              "settings": {
+                "setting": "&lt;entry key=\"Content-Type\" value=\"application/x-www-form-urlencoded\" xmlns=\"http://eviware.com/soapui/config\"/>"
+              },
+              "endpoint": "https://izaan-test.auth.us-east-1.amazoncognito.com",
+              "request": "",
+              "originalUri": "https://izaan-test.auth.us-east-1.amazoncognito.com/oauth2/token",
+              "credentials": {
+                "username": "1u5io4va9sr45n79fceg2damjf",
+                "password": "1qbkthvp7lbc7aavuhhmfg8f2crekor9h2h7abu2oru1nlpj71fe",
+                "selectedAuthProfile": "Basic",
+                "preemptive": true,
+                "addedBasicAuthenticationTypes": [
+                  "NTLM",
+                  "Basic"
+                ],
+                "authType": "Preemptive"
+              },
+              "jmsConfig": "",
+              "parameters": {
+                "entry": [
+                  "",
+                  ""
+                ]
+              },
+              "parameterOrder": {
+                "entry": [
+                  "scope",
+                  "grant_type"
+                ]
+              }
+            }
+          }
+        }
+      },
+      {
+        "settings": "",
+        "definitionCache": "",
+        "endpoints": {
+          "endpoint": "https://5x9m5ed0tj.execute-api.us-east-1.amazonaws.com"
+        },
+        "resource": [
+          {
+            "settings": "",
+            "parameters": "",
+            "method": {
+              "settings": "",
+              "parameters": "",
+              "representation": [
+                {
+                  "mediaType": "application/json",
+                  "status": 401,
+                  "params": "",
+                  "element": "peop:Fault"
+                },
+                {
+                  "mediaType": "application/json",
+                  "params": ""
+                },
+                {
+                  "mediaType": "application/json",
+                  "status": 200,
+                  "params": "",
+                  "element": "peop:Response"
+                }
+              ],
+              "request": {
+                "settings": {
+                  "setting": "&lt;xml-fragment xmlns:con=\"http://eviware.com/soapui/config\">\r\n  &lt;con:entry key=\"Authorization\" value=\"eyJraWQiOiJtNlhhM3FkczlxY2o2ODZYOVBRb0JqTEJSQU5yMzBPZ21ZQzdvdThZc1N3PSIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiIxdTVpbzR2YTlzcjQ1bjc5ZmNlZzJkYW1qZiIsInRva2VuX3VzZSI6ImFjY2VzcyIsInNjb3BlIjoiaXphYW5fdGVzdFwvcG9zdF9pbmZvIiwiYXV0aF90aW1lIjoxNjI1MzE0MzU1LCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAudXMtZWFzdC0xLmFtYXpvbmF3cy5jb21cL3VzLWVhc3QtMV9ZN3k4cTVDMVoiLCJleHAiOjE2MjUzMTc5NTUsImlhdCI6MTYyNTMxNDM1NSwidmVyc2lvbiI6MiwianRpIjoiYzU1MDFmZGMtNmIxNi00YjJjLWJjMTctZGU0NjZhY2U1M2Q4IiwiY2xpZW50X2lkIjoiMXU1aW80dmE5c3I0NW43OWZjZWcyZGFtamYifQ.QfP2kAgjxfbGD7YPAa1qxHZD5tm337_MwuQOatatCc9t-pFgpQ1FMpqrEkHU9lEBuRojDWAzjFjJ2Woj6z22BZNSiIzrv5t-D986B59IhTLQo4WBX1laIFaBIri-0dKa5ghDQ3C7CuYfIVHPI6b3IpPxLA1ssDxjHvP3PL4SyGiji4a-L5yz-67UCCFOFiO4sn-BBjp8Xt_w_q2dS6l2jGUInoTiZPYhS9iWTLRUx_Mov_nMYieRhGu7mIGBu7Fmt7fcmO7O7RUOilXoa5DDH1AN59idrvTqXMZArAig_0WUP-FplcAFIugPTIPB6VOUBG6wtpv3y_V45JpFI9cQRA\"/>\r\n  &lt;con:entry key=\"Content-Type\" value=\"application/json\"/>\r\n&lt;/xml-fragment>"
+                },
+                "endpoint": "https://5x9m5ed0tj.execute-api.us-east-1.amazonaws.com",
+                "request": "",
+                "originalUri": "https://5x9m5ed0tj.execute-api.us-east-1.amazonaws.com/test/people",
+                "credentials": {
+                  "selectedAuthProfile": "No Authorization",
+                  "addedBasicAuthenticationTypes": "Basic",
+                  "authType": "No Authorization"
+                },
+                "jmsConfig": "",
+                "parameters": ""
+              }
+            }
+          },
+          {
+            "settings": "",
+            "parameters": "",
+            "method": {
+              "settings": "",
+              "parameters": "",
+              "representation": [
+                {
+                  "mediaType": "application/json",
+                  "params": ""
+                },
+                {
+                  "mediaType": "application/json",
+                  "status": "401 400",
+                  "params": "",
+                  "element": "sub:Fault"
+                },
+                {
+                  "mediaType": "application/json",
+                  "status": 200,
+                  "params": "",
+                  "element": "Response"
+                }
+              ],
+              "request": {
+                "settings": "",
+                "endpoint": "https://5x9m5ed0tj.execute-api.us-east-1.amazonaws.com",
+                "request": "",
+                "credentials": {
+                  "selectedAuthProfile": "No Authorization",
+                  "authType": "No Authorization"
+                },
+                "jmsConfig": "",
+                "parameters": ""
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "testSuite": [
+      {
+        "settings": "",
+        "savedRecentRuns": 1,
+        "runType": "SEQUENTIAL",
+        "testCase": {
+          "settings": "",
+          "savedRecentRuns": 1,
+          "properties": "",
+          "reportParameters": "",
+          "environmentSpec": {
+            "entry": {
+              "authProfile": "Inherit From Parent"
+            }
+          }
+        },
+        "properties": "",
+        "reportParameters": "",
+        "environmentSpec": {
+          "entry": {
+            "authProfile": "Inherit From Parent"
+          }
+        }
+      },
+      {
+        "settings": {
+          "setting": [
+            true,
+            true,
+            false,
+            true,
+            true
+          ]
+        },
+        "savedRecentRuns": 1,
+        "runType": "SEQUENTIAL",
+        "testCase": {
+          "settings": "",
+          "savedRecentRuns": 1,
+          "properties": "",
+          "reportParameters": "",
+          "environmentSpec": {
+            "entry": {
+              "authProfile": "Inherit From Parent"
+            }
+          }
+        },
+        "properties": "",
+        "reportParameters": "",
+        "environmentSpec": {
+          "entry": {
+            "authProfile": "Inherit From Parent"
+          }
+        }
+      },
+      {
+        "settings": "",
+        "runType": "SEQUENTIAL",
+        "testCase": {
+          "settings": "",
+          "properties": "",
+          "reportParameters": ""
+        },
+        "properties": "",
+        "reportParameters": ""
+      },
+      {
+        "settings": "",
+        "runType": "SEQUENTIAL",
+        "testCase": {
+          "settings": "",
+          "testStep": {
+            "settings": "",
+            "config": {
+              "restRequest": {
+                "settings": {
+                  "setting": "&lt;xml-fragment/>"
+                },
+                "endpoint": "https://izaan-test.auth.us-east-1.amazoncognito.com",
+                "request": "",
+                "originalUri": "https://izaan-test.auth.us-east-1.amazoncognito.com/oauth2/token",
+                "credentials": {
+                  "selectedAuthProfile": "No Authorization",
+                  "authType": "No Authorization"
+                },
+                "jmsConfig": "",
+                "parameters": {
+                  "entry": [
+                    "",
+                    ""
+                  ]
+                },
+                "parameterOrder": {
+                  "entry": [
+                    "scope",
+                    "grant_type"
+                  ]
+                }
+              }
+            }
+          },
+          "properties": "",
+          "reportParameters": ""
+        },
+        "properties": "",
+        "reportParameters": ""
+      },
+      {
+        "settings": "",
+        "runType": "SEQUENTIAL",
+        "testCase": {
+          "settings": "",
+          "testStep": {
+            "settings": "",
+            "config": {
+              "restRequest": {
+                "settings": {
+                  "setting": "&lt;entry key=\"content-type\" value=\"\" xmlns=\"http://eviware.com/soapui/config\"/>"
+                },
+                "endpoint": "https://5x9m5ed0tj.execute-api.us-east-1.amazonaws.com",
+                "request": "",
+                "originalUri": "https://5x9m5ed0tj.execute-api.us-east-1.amazonaws.com/test/people",
+                "assertion": [
+                  {
+                    "settings": "",
+                    "configuration": {
+                      "codes": 200
+                    }
+                  },
+                  {
+                    "configuration": {
+                      "SLA": 200
+                    }
+                  }
+                ],
+                "credentials": {
+                  "selectedAuthProfile": "No Authorization",
+                  "authType": "No Authorization"
+                },
+                "jmsConfig": "",
+                "parameters": ""
+              }
+            }
+          },
+          "properties": "",
+          "reportParameters": ""
+        },
+        "properties": "",
+        "reportParameters": ""
+      },
+      {
+        "settings": "",
+        "runType": "SEQUENTIAL",
+        "testCase": {
+          "settings": "",
+          "testStep": {
+            "settings": "",
+            "config": {
+              "restRequest": {
+                "settings": {
+                  "setting": "&lt;entry key=\"Content-Type\" value=\"application/json\" xmlns=\"http://eviware.com/soapui/config\"/>"
+                },
+                "endpoint": "https://5x9m5ed0tj.execute-api.us-east-1.amazonaws.com",
+                "request": "{\r\n\t\"name\" : \"John Doe\",\r\n\t\"age\" : 15\r\n}",
+                "originalUri": "https://5x9m5ed0tj.execute-api.us-east-1.amazonaws.com/test/submit",
+                "assertion": [
+                  {
+                    "settings": "",
+                    "configuration": {
+                      "codes": 200
+                    }
+                  },
+                  {
+                    "configuration": {
+                      "SLA": 200
+                    }
+                  }
+                ],
+                "credentials": {
+                  "selectedAuthProfile": "Token",
+                  "authType": "No Authorization"
+                },
+                "jmsConfig": "",
+                "parameters": ""
+              }
+            }
+          },
+          "properties": "",
+          "reportParameters": ""
+        },
+        "properties": "",
+        "reportParameters": ""
+      }
+    ],
+    "properties": "",
+    "wssContainer": "",
+    "databaseConnectionContainer": "",
+    "jmsConnectionContainer": "",
+    "oAuth2ProfileContainer": {
+      "oAuth2Profile": [
+        {
+          "name": "Bearer eyJraWQiOiJtNlhhM3FkczlxY2o2ODZYOVBRb0JqTEJSQU5yMzBPZ21ZQzdvdThZc1N3PSIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiIxdTVpbzR2YTlzcjQ1bjc5ZmNlZzJkYW1qZiIsInRva2VuX3VzZSI6ImFjY2VzcyIsInNjb3BlIjoiaXphYW5fdGVzdFwvcG9zdF9pbmZvIiwiYXV0aF90aW1lIjoxNjI1MzE0MzU1LCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAudXMtZWFzdC0xLmFtYXpvbmF3cy5jb21cL3VzLWVhc3QtMV9ZN3k4cTVDMVoiLCJleHAiOjE2MjUzMTc5NTUsImlhdCI6MTYyNTMxNDM1NSwidmVyc2lvbiI6MiwianRpIjoiYzU1MDFmZGMtNmIxNi00YjJjLWJjMTctZGU0NjZhY2U1M2Q4IiwiY2xpZW50X2lkIjoiMXU1aW80dmE5c3I0NW43OWZjZWcyZGFtamYifQ.QfP2kAgjxfbGD7YPAa1qxHZD5tm337_MwuQOatatCc9t-pFgpQ1FMpqrEkHU9lEBuRojDWAzjFjJ2Woj6z22BZNSiIzrv5t-D986B59IhTLQo4WBX1laIFaBIri-0dKa5ghDQ3C7CuYfIVHPI6b3IpPxLA1ssDxjHvP3PL4SyGiji4a-L5yz-67UCCFOFiO4sn-BBjp8Xt_w_q2dS6l2jGUInoTiZPYhS9iWTLRUx_Mov_nMYieRhGu7mIGBu7Fmt7fcmO7O7RUOilXoa5DDH1AN59idrvTqXMZArAig_0WUP-FplcAFIugPTIPB6VOUBG6wtpv3y_V45JpFI9cQRA",
+          "type": "OAuth 2.0",
+          "accessTokenPosition": "HEADER",
+          "oAuth2Flow": "AUTHORIZATION_CODE_GRANT",
+          "refreshAccessTokenMethod": "AUTOMATIC",
+          "jwtConfiguration": "",
+          "responseType": "id_token"
+        },
+        {
+          "name": "Token",
+          "type": "OAuth 2.0",
+          "accessToken": "eyJraWQiOiJtNlhhM3FkczlxY2o2ODZYOVBRb0JqTEJSQU5yMzBPZ21ZQzdvdThZc1N3PSIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiIxdTVpbzR2YTlzcjQ1bjc5ZmNlZzJkYW1qZiIsInRva2VuX3VzZSI6ImFjY2VzcyIsInNjb3BlIjoiaXphYW5fdGVzdFwvcG9zdF9pbmZvIiwiYXV0aF90aW1lIjoxNjI1MzE0MzU1LCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAudXMtZWFzdC0xLmFtYXpvbmF3cy5jb21cL3VzLWVhc3QtMV9ZN3k4cTVDMVoiLCJleHAiOjE2MjUzMTc5NTUsImlhdCI6MTYyNTMxNDM1NSwidmVyc2lvbiI6MiwianRpIjoiYzU1MDFmZGMtNmIxNi00YjJjLWJjMTctZGU0NjZhY2U1M2Q4IiwiY2xpZW50X2lkIjoiMXU1aW80dmE5c3I0NW43OWZjZWcyZGFtamYifQ.QfP2kAgjxfbGD7YPAa1qxHZD5tm337_MwuQOatatCc9t-pFgpQ1FMpqrEkHU9lEBuRojDWAzjFjJ2Woj6z22BZNSiIzrv5t-D986B59IhTLQo4WBX1laIFaBIri-0dKa5ghDQ3C7CuYfIVHPI6b3IpPxLA1ssDxjHvP3PL4SyGiji4a-L5yz-67UCCFOFiO4sn-BBjp8Xt_w_q2dS6l2jGUInoTiZPYhS9iWTLRUx_Mov_nMYieRhGu7mIGBu7Fmt7fcmO7O7RUOilXoa5DDH1AN59idrvTqXMZArAig_0WUP-FplcAFIugPTIPB6VOUBG6wtpv3y_V45JpFI9cQRA",
+          "accessTokenPosition": "HEADER",
+          "accessTokenStartingStatus": "ENTERED_MANUALLY",
+          "manualAccessTokenExpirationTimeUnit": "SECONDS",
+          "oAuth2Flow": "AUTHORIZATION_CODE_GRANT",
+          "refreshAccessTokenMethod": "AUTOMATIC",
+          "jwtConfiguration": "",
+          "responseType": "id_token"
+        },
+        {
+          "name": "token",
+          "type": "OAuth 2.0",
+          "accessToken": "eyJraWQiOiJtNlhhM3FkczlxY2o2ODZYOVBRb0JqTEJSQU5yMzBPZ21ZQzdvdThZc1N3PSIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiIxdTVpbzR2YTlzcjQ1bjc5ZmNlZzJkYW1qZiIsInRva2VuX3VzZSI6ImFjY2VzcyIsInNjb3BlIjoiaXphYW5fdGVzdFwvcG9zdF9pbmZvIiwiYXV0aF90aW1lIjoxNjI1MzE0MzU1LCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAudXMtZWFzdC0xLmFtYXpvbmF3cy5jb21cL3VzLWVhc3QtMV9ZN3k4cTVDMVoiLCJleHAiOjE2MjUzMTc5NTUsImlhdCI6MTYyNTMxNDM1NSwidmVyc2lvbiI6MiwianRpIjoiYzU1MDFmZGMtNmIxNi00YjJjLWJjMTctZGU0NjZhY2U1M2Q4IiwiY2xpZW50X2lkIjoiMXU1aW80dmE5c3I0NW43OWZjZWcyZGFtamYifQ.QfP2kAgjxfbGD7YPAa1qxHZD5tm337_MwuQOatatCc9t-pFgpQ1FMpqrEkHU9lEBuRojDWAzjFjJ2Woj6z22BZNSiIzrv5t-D986B59IhTLQo4WBX1laIFaBIri-0dKa5ghDQ3C7CuYfIVHPI6b3IpPxLA1ssDxjHvP3PL4SyGiji4a-L5yz-67UCCFOFiO4sn-BBjp8Xt_w_q2dS6l2jGUInoTiZPYhS9iWTLRUx_Mov_nMYieRhGu7mIGBu7Fmt7fcmO7O7RUOilXoa5DDH1AN59idrvTqXMZArAig_0WUP-FplcAFIugPTIPB6VOUBG6wtpv3y_V45JpFI9cQRA",
+          "accessTokenPosition": "HEADER",
+          "accessTokenStartingStatus": "ENTERED_MANUALLY",
+          "oAuth2Flow": "JWT_GRANT",
+          "refreshAccessTokenMethod": "AUTOMATIC",
+          "jwtConfiguration": "",
+          "responseType": "id_token"
+        },
+        {
+          "name": "MyToken",
+          "type": "OAuth 2.0",
+          "accessToken": "eyJraWQiOiJtNlhhM3FkczlxY2o2ODZYOVBRb0JqTEJSQU5yMzBPZ21ZQzdvdThZc1N3PSIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiIxdTVpbzR2YTlzcjQ1bjc5ZmNlZzJkYW1qZiIsInRva2VuX3VzZSI6ImFjY2VzcyIsInNjb3BlIjoiaXphYW5fdGVzdFwvcG9zdF9pbmZvIiwiYXV0aF90aW1lIjoxNjI1MzE0MzU1LCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAudXMtZWFzdC0xLmFtYXpvbmF3cy5jb21cL3VzLWVhc3QtMV9ZN3k4cTVDMVoiLCJleHAiOjE2MjUzMTc5NTUsImlhdCI6MTYyNTMxNDM1NSwidmVyc2lvbiI6MiwianRpIjoiYzU1MDFmZGMtNmIxNi00YjJjLWJjMTctZGU0NjZhY2U1M2Q4IiwiY2xpZW50X2lkIjoiMXU1aW80dmE5c3I0NW43OWZjZWcyZGFtamYifQ.QfP2kAgjxfbGD7YPAa1qxHZD5tm337_MwuQOatatCc9t-pFgpQ1FMpqrEkHU9lEBuRojDWAzjFjJ2Woj6z22BZNSiIzrv5t-D986B59IhTLQo4WBX1laIFaBIri-0dKa5ghDQ3C7CuYfIVHPI6b3IpPxLA1ssDxjHvP3PL4SyGiji4a-L5yz-67UCCFOFiO4sn-BBjp8Xt_w_q2dS6l2jGUInoTiZPYhS9iWTLRUx_Mov_nMYieRhGu7mIGBu7Fmt7fcmO7O7RUOilXoa5DDH1AN59idrvTqXMZArAig_0WUP-FplcAFIugPTIPB6VOUBG6wtpv3y_V45JpFI9cQRA",
+          "accessTokenPosition": "HEADER",
+          "accessTokenStartingStatus": "ENTERED_MANUALLY",
+          "oAuth2Flow": "AUTHORIZATION_CODE_GRANT",
+          "refreshAccessTokenMethod": "AUTOMATIC",
+          "jwtConfiguration": "",
+          "responseType": "id_token"
+        }
+      ]
+    },
+    "oAuth1ProfileContainer": "",
+    "reporting": [
+      {
+        "reportTemplates": "",
+        "xmlTemplates": [
+          "",
+          ""
+        ],
+        "parameters": [
+          "",
+          ""
+        ]
+      },
+      ""
+    ],
+    "eventHandlers": [
+      {
+        "script": "// Sample event script to add custom HTTP header to all outgoing REST, SOAP and HTTP(S) calls\r\n// This code is often used for adding custom authentication to ReadyAPI functional tests\r\n\r\n// If hardcoding the token, uncomment and change line 5\r\n// token = '4567'\r\n\r\n// If your token is parameterized in Project level custom property, uncomment line 8\r\n// token = request.parent.testCase.testSuite.project.getProperty('auth_token').getValue()\r\n\r\n// To modify all outgoing calls, remove comments from lines 11 to 16\r\n// headers = request.requestHeaders\r\n// if (headers.containsKey('auth_token2') == false) {\r\n//   headers.put('auth_token2', token)\r\n//   request.requestHeaders = headers\r\n// }"
+      },
+      {
+        "script": "// Save all test step results into files\r\n// Change the directory path in line 5 to a location where you want to store details\r\n// then uncomment lines 5 to 10\r\n\r\n// filePath = 'C:\\\\tempOutputDirectory\\\\'\r\n// fos = new java.io.FileOutputStream(filePath + testStepResult.testStep.label + '.txt', true)\r\n// pw = new java.io.PrintWriter(fos)\r\n// testStepResult.writeTo(pw)\r\n// pw.close()\r\n// fos.close()"
+      }
+    ],
+    "environment": {
+      "databaseConnectionContainer": "",
+      "jmsConnectionContainer": ""
+    },
+    "authRepository": {
+      "oAuth20AuthEntry": [
+        {
+          "name": "Bearer eyJraWQiOiJtNlhhM3FkczlxY2o2ODZYOVBRb0JqTEJSQU5yMzBPZ21ZQzdvdThZc1N3PSIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiIxdTVpbzR2YTlzcjQ1bjc5ZmNlZzJkYW1qZiIsInRva2VuX3VzZSI6ImFjY2VzcyIsInNjb3BlIjoiaXphYW5fdGVzdFwvcG9zdF9pbmZvIiwiYXV0aF90aW1lIjoxNjI1MzE0MzU1LCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAudXMtZWFzdC0xLmFtYXpvbmF3cy5jb21cL3VzLWVhc3QtMV9ZN3k4cTVDMVoiLCJleHAiOjE2MjUzMTc5NTUsImlhdCI6MTYyNTMxNDM1NSwidmVyc2lvbiI6MiwianRpIjoiYzU1MDFmZGMtNmIxNi00YjJjLWJjMTctZGU0NjZhY2U1M2Q4IiwiY2xpZW50X2lkIjoiMXU1aW80dmE5c3I0NW43OWZjZWcyZGFtamYifQ.QfP2kAgjxfbGD7YPAa1qxHZD5tm337_MwuQOatatCc9t-pFgpQ1FMpqrEkHU9lEBuRojDWAzjFjJ2Woj6z22BZNSiIzrv5t-D986B59IhTLQo4WBX1laIFaBIri-0dKa5ghDQ3C7CuYfIVHPI6b3IpPxLA1ssDxjHvP3PL4SyGiji4a-L5yz-67UCCFOFiO4sn-BBjp8Xt_w_q2dS6l2jGUInoTiZPYhS9iWTLRUx_Mov_nMYieRhGu7mIGBu7Fmt7fcmO7O7RUOilXoa5DDH1AN59idrvTqXMZArAig_0WUP-FplcAFIugPTIPB6VOUBG6wtpv3y_V45JpFI9cQRA",
+          "type": "OAuth 2.0",
+          "accessTokenPosition": "HEADER",
+          "oAuth2Flow": "AUTHORIZATION_CODE_GRANT",
+          "refreshAccessTokenMethod": "AUTOMATIC",
+          "jwtConfiguration": "",
+          "responseType": "id_token"
+        },
+        {
+          "name": "Token",
+          "type": "OAuth 2.0",
+          "accessToken": "eyJraWQiOiJtNlhhM3FkczlxY2o2ODZYOVBRb0JqTEJSQU5yMzBPZ21ZQzdvdThZc1N3PSIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiIxdTVpbzR2YTlzcjQ1bjc5ZmNlZzJkYW1qZiIsInRva2VuX3VzZSI6ImFjY2VzcyIsInNjb3BlIjoiaXphYW5fdGVzdFwvcG9zdF9pbmZvIiwiYXV0aF90aW1lIjoxNjI1MzE0MzU1LCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAudXMtZWFzdC0xLmFtYXpvbmF3cy5jb21cL3VzLWVhc3QtMV9ZN3k4cTVDMVoiLCJleHAiOjE2MjUzMTc5NTUsImlhdCI6MTYyNTMxNDM1NSwidmVyc2lvbiI6MiwianRpIjoiYzU1MDFmZGMtNmIxNi00YjJjLWJjMTctZGU0NjZhY2U1M2Q4IiwiY2xpZW50X2lkIjoiMXU1aW80dmE5c3I0NW43OWZjZWcyZGFtamYifQ.QfP2kAgjxfbGD7YPAa1qxHZD5tm337_MwuQOatatCc9t-pFgpQ1FMpqrEkHU9lEBuRojDWAzjFjJ2Woj6z22BZNSiIzrv5t-D986B59IhTLQo4WBX1laIFaBIri-0dKa5ghDQ3C7CuYfIVHPI6b3IpPxLA1ssDxjHvP3PL4SyGiji4a-L5yz-67UCCFOFiO4sn-BBjp8Xt_w_q2dS6l2jGUInoTiZPYhS9iWTLRUx_Mov_nMYieRhGu7mIGBu7Fmt7fcmO7O7RUOilXoa5DDH1AN59idrvTqXMZArAig_0WUP-FplcAFIugPTIPB6VOUBG6wtpv3y_V45JpFI9cQRA",
+          "accessTokenPosition": "HEADER",
+          "accessTokenStartingStatus": "ENTERED_MANUALLY",
+          "manualAccessTokenExpirationTimeUnit": "SECONDS",
+          "oAuth2Flow": "AUTHORIZATION_CODE_GRANT",
+          "refreshAccessTokenMethod": "AUTOMATIC",
+          "jwtConfiguration": "",
+          "responseType": "id_token"
+        },
+        {
+          "name": "token",
+          "type": "OAuth 2.0",
+          "accessToken": "eyJraWQiOiJtNlhhM3FkczlxY2o2ODZYOVBRb0JqTEJSQU5yMzBPZ21ZQzdvdThZc1N3PSIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiIxdTVpbzR2YTlzcjQ1bjc5ZmNlZzJkYW1qZiIsInRva2VuX3VzZSI6ImFjY2VzcyIsInNjb3BlIjoiaXphYW5fdGVzdFwvcG9zdF9pbmZvIiwiYXV0aF90aW1lIjoxNjI1MzE0MzU1LCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAudXMtZWFzdC0xLmFtYXpvbmF3cy5jb21cL3VzLWVhc3QtMV9ZN3k4cTVDMVoiLCJleHAiOjE2MjUzMTc5NTUsImlhdCI6MTYyNTMxNDM1NSwidmVyc2lvbiI6MiwianRpIjoiYzU1MDFmZGMtNmIxNi00YjJjLWJjMTctZGU0NjZhY2U1M2Q4IiwiY2xpZW50X2lkIjoiMXU1aW80dmE5c3I0NW43OWZjZWcyZGFtamYifQ.QfP2kAgjxfbGD7YPAa1qxHZD5tm337_MwuQOatatCc9t-pFgpQ1FMpqrEkHU9lEBuRojDWAzjFjJ2Woj6z22BZNSiIzrv5t-D986B59IhTLQo4WBX1laIFaBIri-0dKa5ghDQ3C7CuYfIVHPI6b3IpPxLA1ssDxjHvP3PL4SyGiji4a-L5yz-67UCCFOFiO4sn-BBjp8Xt_w_q2dS6l2jGUInoTiZPYhS9iWTLRUx_Mov_nMYieRhGu7mIGBu7Fmt7fcmO7O7RUOilXoa5DDH1AN59idrvTqXMZArAig_0WUP-FplcAFIugPTIPB6VOUBG6wtpv3y_V45JpFI9cQRA",
+          "accessTokenPosition": "HEADER",
+          "accessTokenStartingStatus": "ENTERED_MANUALLY",
+          "oAuth2Flow": "JWT_GRANT",
+          "refreshAccessTokenMethod": "AUTOMATIC",
+          "jwtConfiguration": "",
+          "responseType": "id_token"
+        },
+        {
+          "name": "MyToken",
+          "type": "OAuth 2.0",
+          "accessToken": "eyJraWQiOiJtNlhhM3FkczlxY2o2ODZYOVBRb0JqTEJSQU5yMzBPZ21ZQzdvdThZc1N3PSIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiIxdTVpbzR2YTlzcjQ1bjc5ZmNlZzJkYW1qZiIsInRva2VuX3VzZSI6ImFjY2VzcyIsInNjb3BlIjoiaXphYW5fdGVzdFwvcG9zdF9pbmZvIiwiYXV0aF90aW1lIjoxNjI1MzE0MzU1LCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAudXMtZWFzdC0xLmFtYXpvbmF3cy5jb21cL3VzLWVhc3QtMV9ZN3k4cTVDMVoiLCJleHAiOjE2MjUzMTc5NTUsImlhdCI6MTYyNTMxNDM1NSwidmVyc2lvbiI6MiwianRpIjoiYzU1MDFmZGMtNmIxNi00YjJjLWJjMTctZGU0NjZhY2U1M2Q4IiwiY2xpZW50X2lkIjoiMXU1aW80dmE5c3I0NW43OWZjZWcyZGFtamYifQ.QfP2kAgjxfbGD7YPAa1qxHZD5tm337_MwuQOatatCc9t-pFgpQ1FMpqrEkHU9lEBuRojDWAzjFjJ2Woj6z22BZNSiIzrv5t-D986B59IhTLQo4WBX1laIFaBIri-0dKa5ghDQ3C7CuYfIVHPI6b3IpPxLA1ssDxjHvP3PL4SyGiji4a-L5yz-67UCCFOFiO4sn-BBjp8Xt_w_q2dS6l2jGUInoTiZPYhS9iWTLRUx_Mov_nMYieRhGu7mIGBu7Fmt7fcmO7O7RUOilXoa5DDH1AN59idrvTqXMZArAig_0WUP-FplcAFIugPTIPB6VOUBG6wtpv3y_V45JpFI9cQRA",
+          "accessTokenPosition": "HEADER",
+          "accessTokenStartingStatus": "ENTERED_MANUALLY",
+          "oAuth2Flow": "AUTHORIZATION_CODE_GRANT",
+          "refreshAccessTokenMethod": "AUTOMATIC",
+          "jwtConfiguration": "",
+          "responseType": "id_token"
+        }
+      ]
+    },
+    "environmentSpec": {
+      "entry": {
+        "authProfile": "No Authorization"
+      }
+    },
+    "tags": ""
+  }
+}
